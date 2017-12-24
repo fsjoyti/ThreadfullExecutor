@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ThreadfullExecutor</string>
+    <string name="corepoolsize_title">Core Pool Size</string>
+    <string name="maximumpoolsize_tile">Maximum Pool Size</string>
+    <string name="corepoolsize">Set Core Threadpoolsize</string>
+    <string name="maximumpoolsize">Set maximum pool size</string>
+    <string name="title_activity_thread_preferences">ThreadPreferencesActivity</string>
+    <string name="threadpool_preferences">ThreadPool Preferences</string>
+    <string name="corepoolsize_preference">core pool size </string>
+    <string name="maximumpoolsize_preference">maximum pool size </string>
+    <string name="prestart">Prestart </string>
+    <string name = "prestart_summary">Allow core threads to prestart</string>
+    <string name="prestart_title">Prestart</string>
+    <string name = "corethreadtimeout"> time out</string>
+    <string name = "corethreadtimeout_title">Timeout for corethread</string>
+    <string name="corethreadtimeout_summary">Allow core thread timeout</string>
+    <string name = "tasks">Number of tasks</string>
+    <string name = "tasks_summary">Enter number of tasks</string>
+    <string name = "tasks_title">Number of tasks</string>
+</resources>

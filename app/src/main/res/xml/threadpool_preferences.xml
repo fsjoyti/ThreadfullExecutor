@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/prestart"
+        android:summary="@string/prestart_summary"
+        android:title="@string/prestart_title" />
+    <EditTextPreference
+        android:defaultValue="5"
+        android:key="@string/corepoolsize_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:dialogTitle="@string/corepoolsize_title"
+        android:title="@string/corepoolsize_title"
+        android:summary="@string/corepoolsize"/>
+
+    <EditTextPreference
+        android:defaultValue="10"
+        android:key="@string/maximumpoolsize_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:dialogTitle="@string/maximumpoolsize_tile"
+        android:title="@string/maximumpoolsize_tile"
+        android:summary="@string/maximumpoolsize"/>
+
+    <EditTextPreference
+        android:defaultValue="3"
+        android:key="@string/tasks"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:dialogTitle="@string/tasks_title"
+        android:title="@string/tasks_title"
+        android:summary="@string/tasks_summary"/>
+
+
+
+</PreferenceScreen>
